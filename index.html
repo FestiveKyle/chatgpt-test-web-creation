@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Informational Web Page</title>
+
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+<header>
+  <h1>Informational Web Page</h1>
+  <button id="toggle-lang-btn">English</button>
+</header>
+<main>
+  <div class="grid-container">
+    <div></div>
+    <div class="header top-header">Assess Cloud Service Provider</div>
+    <div class="header top-header">Obtain Cloud Account</div>
+    <div class="header top-header">Apply Guardrails</div>
+    <div class="header top-header">Complete Authority to Operate (ATO)</div>
+    <div class="header top-header">Connectivity Readiness</div>
+    <div class="header top-header">Deploy Cloud Solutions</div>
+    <div class="header top-header">Operate and Maintain</div>
+    <div class="content left-header green">Dept.</div>
+    <div class="content grid-item green" onclick="showModal()">content here</div>
+    <div class="content grid-item green" onclick="showModal()">content here</div>
+    <div class="content grid-item green" onclick="showModal()">content here</div>
+    <div class="content grid-item green" onclick="showModal()">content here</div>
+    <div class="content grid-item green" onclick="showModal()">content here</div>
+    <div class="content grid-item green" onclick="showModal()">content here</div>
+    <div class="content grid-item green" onclick="showModal()">content here</div>
+    <div class="content left-header grey">SSC</div>
+    <div class="content grid-item grey" onclick="showModal()">content here</div>
+    <div class="content grid-item grey" onclick="showModal()">content here</div>
+    <div class="content grid-item grey" onclick="showModal()">content here</div>
+    <div class="content grid-item grey" onclick="showModal()">content here</div>
+    <div class="content grid-item grey" onclick="showModal()">content here</div>
+    <div class="content grid-item grey" onclick="showModal()">content here</div>
+    <div class="content grid-item grey" onclick="showModal()">content here</div>
+    <div class="content left-header lightblue">TBS</div>
+    <div class="content grid-item lightblue" onclick="showModal()">content here</div>
+    <div class="content grid-item lightblue" onclick="showModal()">content here</div>
+    <div class="content grid-item lightblue" onclick="showModal()">content here</div>
+    <div class="content grid-item lightblue" onclick="showModal()">content here</div>
+    <div class="content grid-item lightblue" onclick="showModal()">content here</div>
+    <div class="content grid-item lightblue" onclick="showModal()">content here</div>
+    <div class="content grid-item lightblue" onclick="showModal()">content here</div>
+    <div class="content left-header peach">CCCS</div>
+    <div class="content grid-item peach" onclick="showModal()">content here</div>
+    <div class="content grid-item peach" onclick="showModal()">content here</div>
+    <div class="content grid-item peach" onclick="showModal()">content here</div>
+    <div class="content grid-item peach" onclick="showModal()">content here</div>
+    <div class="content grid-item peach" onclick="showModal()">content here</div>
+    <div class="content grid-item peach" onclick="showModal()">content here</div>
+    <div class="content grid-item peach" onclick="showModal()">content here</div>
+  </div>
+
+
+  <div class="modal" id="tour-modal">
+      <div class="modal-content tour-content" >
+        <div id="tour-modal-content">
+          <h2>Would you like to take a guided tour?</h2>
+          <p>We can walk you through the main features of the site to help you get started.</p>
+        </div>
+
+        <div class="tour-buttons">
+          <button class="next-button" id="start-tour">Start Tour</button>
+          <button class="skip-button" id="skip-tour">Skip Tour</button>
+        </div>
+      </div>
+  </div>
+</main>
+</body>
+</html>
